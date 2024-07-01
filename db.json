@@ -1,0 +1,77 @@
+{
+  "week1": [
+    {
+      "id": "1",
+      "name": "monday",
+      "value": 150
+    },
+    {
+      "id": "2",
+      "name": "tuesday",
+      "value": 200
+    },
+    {
+      "id": "3",
+      "name": "wednesday",
+      "value": 50
+    },
+    {
+      "id": "4",
+      "name": "thursday",
+      "value": 75
+    },
+    {
+      "id": "5",
+      "name": "friday",
+      "value": 15
+    },
+    {
+      "id": "6",
+      "name": "saturday",
+      "value": 22
+    },
+    {
+      "id": "7",
+      "name": "sunday",
+      "value": 12
+    }
+  ],
+
+  "week2": [
+    {
+      "id": "8",
+      "name": "monday",
+      "value": 64
+    },
+    {
+      "id": "9",
+      "name": "tuesday",
+      "value": 78
+    },
+    {
+      "id": "10",
+      "name": "wednesday",
+      "value": 504
+    },
+    {
+      "id": "11",
+      "name": "thursday",
+      "value": 429
+    },
+    {
+      "id": "12",
+      "name": "friday",
+      "value": 220
+    },
+    {
+      "id": "13",
+      "name": "saturday",
+      "value": 621
+    },
+    {
+      "id": "14",
+      "name": "sunday",
+      "value": 88
+    }
+  ]
+}
