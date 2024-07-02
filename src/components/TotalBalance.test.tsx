@@ -1,17 +1,16 @@
 // TotalBalance.test.tsx
-
+import React from "react";
 import { ReactNode } from "react";
 import { describe, test, vi } from "vitest";
 import { render } from "@testing-library/react";
 import TotalBalance from "./TotalBalance";
 import { FetchData } from "../context/FetchData";
 import { Week, FetchDataContextType } from "../types";
-// import '@testing-library/jest-dom';  // Importar jest-dom para los matchers extendidos
 
 const mockWeekData: Week[] = [
   { id: "1", name: "Week 1", value: 100 },
   { id: "2", name: "Week 2", value: 200 },
-  { id: "3", name: "Week 3", value: 300 },
+  { id: "3", name: "Week 3", value: 500 },
 ];
 
 const mockContextValue: FetchDataContextType = {

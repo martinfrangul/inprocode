@@ -10,3 +10,7 @@ export default defineConfig({
     environment: "jsdom",
   },
 });
+
+
+
+// npx json-server --watch db.json --port 8000
