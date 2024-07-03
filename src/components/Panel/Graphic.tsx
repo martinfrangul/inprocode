@@ -10,6 +10,8 @@ import {
 import { useContext } from "react";
 import { Bar } from "react-chartjs-2";
 import { FetchData } from "../../context/FetchData";
+import { useTranslation } from "react-i18next";
+
 
 ChartJs.register(
   CategoryScale,
@@ -22,21 +24,24 @@ ChartJs.register(
 
 const Graphic = () => {
   const context = useContext(FetchData);
-
+  
+  
   if (!context) {
     throw new Error("useContext must be used within a DataProvider");
   }
-
+  
   const { weekData } = context;
-
+  
   const names = weekData.map((item) => item.name);
   const values = weekData.map((item) => item.value);
+  const { t } = useTranslation();
 
+  
   const BarChartData = {
     labels: names,
     datasets: [
       {
-        label: "Week expenses",
+        label: t("chartLabel"),
         data: values,
         borderColor: [
           "rgb(255, 99, 132)",
