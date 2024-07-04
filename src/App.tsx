@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex flex-col justify-center gap-2 items-center m-auto max-h-screen bg-[#F8EBDE] h-full w-full">
       <DataProvider>
-      <LangPanel></LangPanel>
+        <LangPanel></LangPanel>
         <TotalBalance></TotalBalance>
         <GraphicPanel></GraphicPanel>
       </DataProvider>

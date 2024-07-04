@@ -1,77 +1,151 @@
 {
-  "week1": [
-    {
-      "id": "1",
-      "name": "Monday",
-      "value": 150
-    },
-    {
-      "id": "2",
-      "name": "Tuesday",
-      "value": 400
-    },
-    {
-      "id": "3",
-      "name": "Wednesday",
-      "value": 50
-    },
-    {
-      "id": "4",
-      "name": "Thursday",
-      "value": 75
-    },
-    {
-      "id": "5",
-      "name": "Friday",
-      "value": 10
-    },
-    {
-      "id": "6",
-      "name": "Saturday",
-      "value": 100
-    },
-    {
-      "id": "7",
-      "name": "Sunday",
-      "value": 65
-    }
-  ],
+    "week1": [
+      {
+        "id": "1",
+        "name": "Monday",
+        "value": 150
+      },
+      {
+        "id": "2",
+        "name": "Tuesday",
+        "value": 400
+      },
+      {
+        "id": "3",
+        "name": "Wednesday",
+        "value": 50
+      },
+      {
+        "id": "4",
+        "name": "Thursday",
+        "value": 75
+      },
+      {
+        "id": "5",
+        "name": "Friday",
+        "value": 10
+      },
+      {
+        "id": "6",
+        "name": "Saturday",
+        "value": 100
+      },
+      {
+        "id": "7",
+        "name": "Sunday",
+        "value": 65
+      }
+    ],
 
-  "week2": [
-    {
-      "id": "8",
-      "name": "Monday",
-      "value": 64
-    },
-    {
-      "id": "9",
-      "name": "Tuesday",
-      "value": 78
-    },
-    {
-      "id": "10",
-      "name": "Wednesday",
-      "value": 504
-    },
-    {
-      "id": "11",
-      "name": "Thursday",
-      "value": 429
-    },
-    {
-      "id": "12",
-      "name": "Friday",
-      "value": 220
-    },
-    {
-      "id": "13",
-      "name": "Saturday",
-      "value": 621
-    },
-    {
-      "id": "14",
-      "name": "Sunday",
-      "value": 88
-    }
-  ]
+    "week2": [
+      {
+        "id": "8",
+        "name": "Monday",
+        "value": 64
+      },
+      {
+        "id": "9",
+        "name": "Tuesday",
+        "value": 30
+      },
+      {
+        "id": "10",
+        "name": "Wednesday",
+        "value": 504
+      },
+      {
+        "id": "11",
+        "name": "Thursday",
+        "value": 429
+      },
+      {
+        "id": "12",
+        "name": "Friday",
+        "value": 220
+      },
+      {
+        "id": "13",
+        "name": "Saturday",
+        "value": 621
+      },
+      {
+        "id": "14",
+        "name": "Sunday",
+        "value": 88
+      }
+    ],
+    "week3": [
+      {
+        "id": "15",
+        "name": "Monday",
+        "value": 90
+      },
+      {
+        "id": "16",
+        "name": "Tuesday",
+        "value": 160
+      },
+      {
+        "id": "17",
+        "name": "Wednesday",
+        "value": 259
+      },
+      {
+        "id": "18",
+        "name": "Thursday",
+        "value": 75
+      },
+      {
+        "id": "19",
+        "name": "Friday",
+        "value": 20
+      },
+      {
+        "id": "20",
+        "name": "Saturday",
+        "value": 720
+      },
+      {
+        "id": "21",
+        "name": "Sunday",
+        "value": 310
+      }
+    ], 
+    "week4": [
+      {
+        "id": "15",
+        "name": "Monday",
+        "value": 70
+      },
+      {
+        "id": "16",
+        "name": "Tuesday",
+        "value": 10
+      },
+      {
+        "id": "17",
+        "name": "Wednesday",
+        "value": 650
+      },
+      {
+        "id": "18",
+        "name": "Thursday",
+        "value": 555
+      },
+      {
+        "id": "19",
+        "name": "Friday",
+        "value": 300
+      },
+      {
+        "id": "20",
+        "name": "Saturday",
+        "value": 70
+      },
+      {
+        "id": "21",
+        "name": "Sunday",
+        "value": 30
+      }
+    ]
 }

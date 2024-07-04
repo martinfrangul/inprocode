@@ -16,6 +16,8 @@ const mockWeekData: Week[] = [
 const mockContextValue: FetchDataContextType = {
   weekData: mockWeekData,
   setWeekData: vi.fn(),
+  weekNum: "4", // Añadir esta propiedad
+  setWeekNum: vi.fn(), // Añadir esta propiedad
 };
 
 interface MockFetchDataProviderProps {

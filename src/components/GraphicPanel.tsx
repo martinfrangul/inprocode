@@ -16,26 +16,24 @@ const GraphicPanel: React.FC = () => {
 
   const { weekData } = context;
 
-  const todayElement = weekData.find((item: Week) => item.id === "2");
-  const yesterdayElement = weekData.find((item: Week) => item.id === "1");
+  const todayElement = weekData.find((item: Week) => item.name === "Tuesday");
+  const yesterdayElement = weekData.find((item: Week) => item.name === "Monday");
 
   useEffect(() => {
     if (todayElement && yesterdayElement) {
       let newPercComparedWithYest: number;
 
       if (todayElement.value > yesterdayElement.value) {
-        newPercComparedWithYest = 5;
         newPercComparedWithYest = 100 -
-          parseFloat(
+          parseInt(
             ((yesterdayElement.value * 100) / todayElement.value).toFixed(1)
           );
       } else {
         newPercComparedWithYest =
-          parseFloat(
+          parseInt(
             ((todayElement.value * 100) / yesterdayElement.value).toFixed(1)
           ) - 100;
       }
-
       setPercComparedWithYest(newPercComparedWithYest);
     }
   }, [weekData]);
@@ -56,7 +54,11 @@ const GraphicPanel: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-end p-3">
-          <div className="text-sm">{percComparedWithYest} %</div>
+          <div className="text-sm">
+            {Math.sign(percComparedWithYest) == 1 && `+${percComparedWithYest} %`}
+            {Math.sign(percComparedWithYest) == -1 && `${percComparedWithYest} %`}
+            
+            </div>
           <div>{t("yesterdayComparisonTitle")}</div>
         </div>
       </div>

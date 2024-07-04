@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una pequeña aplicación para el seguimiento de gastos semanales. La aplicación permite ver los gastos totales de la semana, revisar semanas anteriores, mostrar el total de los gastos, los gastos de hoy y los gastos respecto a ayer. Utiliza bibliotecas para manejo de idiomas y gráficos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Mostrar el balance total de los gastos de la semana.
+- Revisar los gastos de semanas anteriores y siguientes.
+- Mostrar los gastos de hoy y compararlos con los de ayer.
+- Soporte para múltiples idiomas.
+- Visualización de datos mediante gráficos.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clona el repositorio:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/tu-usuario/expense-tracker-app.git
+   cd expense-tracker-app
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Instala las dependencias:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# inprocode
-# inprocode
+  ```bash
+  npm install
+
+3. Inicia el servidor json-server:
+
+  ```bash
+  json-server --watch db.json --port 8000
+   
+4. Inicia el servidor de desarrollo:
+
+  ```bash
+  npm run dev
+
+
+
+## Estructura del proyecto
+
+  ├── src
+│   ├── components
+│   │   ├── GraphicPanel.tsx
+│   │   ├── LangPanel.tsx
+│   │   ├── TotalBalance.tsx
+│   ├── context
+│   │   ├── FetchData.tsx
+│   ├── types
+│   │   ├── index.ts
+│   ├── App.tsx
+│   ├── App.css
+├── public
+│   ├── index.html
+├── db.json
+├── package.json
+├── README.md
+
+
+## Contribución
+Si deseas contribuir a este proyecto, por favor haz un fork del repositorio, crea una rama con tus cambios y envía un pull request.
+
+## Licencia
+Este proyecto está bajo la Licencia MIT. Puedes ver más detalles en el archivo LICENSE.
