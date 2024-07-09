@@ -2,6 +2,8 @@
 
 Esta es una pequeña aplicación para el seguimiento de gastos semanales. La aplicación permite ver los gastos totales de la semana, revisar semanas anteriores, mostrar el total de los gastos, los gastos de hoy y los gastos respecto a ayer. Utiliza bibliotecas para manejo de idiomas y gráficos.
 
+![Captura de pantalla 2024-07-09 a las 14 34 01](https://github.com/martinfrangul/inprocode/assets/77142482/d45576e7-a036-4f83-a163-90ad6890b42c)
+
 ## Funcionalidades
 
 - Mostrar el balance total de los gastos de la semana.
