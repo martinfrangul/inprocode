@@ -15,8 +15,7 @@ Esta es una pequeña aplicación para el seguimiento de gastos semanales. La apl
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/expense-tracker-app.git
-   cd expense-tracker-app
+   git clone https://github.com/martinfrangul/inprocode
 
 2. Instala las dependencias:
 
@@ -32,27 +31,6 @@ Esta es una pequeña aplicación para el seguimiento de gastos semanales. La apl
 
   ```bash
   npm run dev
-
-
-
-## Estructura del proyecto
-
-  ├── src
-│   ├── components
-│   │   ├── GraphicPanel.tsx
-│   │   ├── LangPanel.tsx
-│   │   ├── TotalBalance.tsx
-│   ├── context
-│   │   ├── FetchData.tsx
-│   ├── types
-│   │   ├── index.ts
-│   ├── App.tsx
-│   ├── App.css
-├── public
-│   ├── index.html
-├── db.json
-├── package.json
-├── README.md
 
 
 ## Contribución
